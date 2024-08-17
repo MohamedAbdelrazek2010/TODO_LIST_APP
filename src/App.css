@@ -1,0 +1,27 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.todos ul li {
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo span {
+  margin-right: 30rem;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
